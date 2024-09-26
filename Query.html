@@ -1,0 +1,42 @@
+<!Doctype html>
+<html lang="en">
+      <head>
+             <meta charset="utf-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Nutrition Supply</title>
+			 <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+			 
+      </head>
+
+      <body>
+		<form name="enquiry" action="submit.php" method="post" autocomplete="on">
+			<form action="/submit-form" method="POST">
+				<h2>Support Us</h2>
+			<!--
+				<input>
+				type: text, email, password, url, search, tel,
+				      number, range, color, month, week, date, time,
+				      datetime, datetime-local, textarea, button,
+				      reset, submit, image, hidden
+			-->
+
+			<lable for="firstname">Name</lable>
+			<input type="text" id="firstname" name="firstname">
+			<br>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="Your email..." required>
+			<br>
+			<lable for="age">Age</lable>
+			<input type="number" id="age" name="age" min="18" max="100" value="">
+			<br>
+			<lable for="message">Message</lable>
+			<textarea id="message" name="message" rows="5" cols="3"></textarea>
+			<br>
+			<button type="submit">Submit</button>
+			<input type="reset" value="Reset">
+		</form>
+
+
+
+	</body>
+</html>
